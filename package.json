@@ -13,6 +13,10 @@
         "angular",
         "swagger-ui"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SayakMukhopadhyay/swagger-angular-ui.git"
+    },
     "author": "Sayak Mukhopadhyay",
     "license": "Apache-2.0",
     "dependencies": {
