@@ -20,17 +20,16 @@
     "author": "Sayak Mukhopadhyay",
     "license": "Apache-2.0",
     "dependencies": {
+        "clarity-angular": "^0.10.0-patch",
+        "clarity-icons": "^0.10.0-patch",
+        "clarity-ui": "^0.10.0-patch"
+    },
+    "devDependencies": {
         "@angular/animations": "^4.3.5",
         "@angular/common": "^4.3.5",
         "@angular/core": "^4.3.5",
         "@angular/forms": "^4.3.5",
         "@angular/platform-browser": "^4.3.5",
-        "clarity-angular": "^0.10.0-patch",
-        "clarity-icons": "^0.10.0-patch",
-        "clarity-ui": "^0.10.0-patch",
-        "rxjs": "^5.4.3"
-    },
-    "devDependencies": {
         "@angular/compiler": "^4.3.5",
         "@angular/compiler-cli": "^4.3.5",
         "@types/swagger-schema-official": "^2.0.5",
@@ -39,6 +38,15 @@
         "rollup-plugin-angular": "^0.4.12",
         "rollup-plugin-commonjs": "^8.1.0",
         "rollup-plugin-node-resolve": "^3.0.0",
-        "rollup-plugin-typescript2": "^0.5.0"
+        "rollup-plugin-typescript2": "^0.5.0",
+        "rxjs": "^5.4.3"
+    },
+    "peerDependencies": {
+        "@angular/animations": "^4.3.5",
+        "@angular/common": "^4.3.5",
+        "@angular/core": "^4.3.5",
+        "@angular/forms": "^4.3.5",
+        "@angular/platform-browser": "^4.3.5",
+        "rxjs": "^5.4.3"
     }
 }
